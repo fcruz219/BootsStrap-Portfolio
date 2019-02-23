@@ -2,9 +2,6 @@ body {
     background-image: url(Assets/images/vintage-concrete.png)
 }
 
-.container {
-}
-
 .footer {
     position: absolute;
     bottom: 0;
@@ -16,10 +13,18 @@ body {
 
 .row {
     background: white;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
 }
 
 .text-muted {
     padding-top: 20px;
     text-align: center;
+}
+
+.name-email {
+    width: 628px;
+    height: 15px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
 }
