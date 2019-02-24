@@ -19,7 +19,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
         </li>
@@ -35,32 +35,36 @@
     <!-- header -->
 
   <!-- CONTACT ME -->
-  <div class="container">
+  <div class="container" id="media">
       <div class="row" style="margin-top: 40px">
           <h1 style="margin-left: 20px">Contact Me</h1>
       </div>
         
 <div class="row">
-  <form id="contact-form" style="margin-left: 20px">
-<!-- name -->
-        <label for="Name">Name</label> <br>
-        <input class="name-email" type="text" id="Name" name="Name" value="John Appleseed">
-      
-      </form>
+  <div class="col-md-12" style="margin: 10px">
+    <div class="form-group">
+        <label for="usr">Name:</label>
+        <input type="text" class="form-control" id="usr">
+      </div>
+    </div>
    </div>   
 <!-- email -->
 <div class="row">
-<form id="contact-form" style="margin-left: 20px">
-      <label for="Email">Email</label><br>
-      <input class="name-email" type="text" id="Email" name="Email" value="example@example.none">
-    </form>
-  </div>
+    <div class="col-md-12" style="margin: 10px">
+      <div class="form-group">
+          <label for="usr">Email:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+      </div>
+     </div>   
 <!-- message -->
 <div class="row">
-<form id="contact-form" style="margin-left: 20px">
-      <label for="Message">Message</label><br>
-      <textarea name="message" id="messsage" cols="30" rows="10"></textarea>  
-    </form>
+  <div class="col-md-12" style="margin: 10px">
+    <div class="form-group">
+        <label for="comment">Comment:</label>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
+      </div>
+    </div>
   </div>
 <!-- submit button -->
 <div class="row" style="padding: 30px">
@@ -68,9 +72,6 @@
     <button type="button" class="btn btn-secondary btn-lg">Submit!</button>
   </form>
 </div>
-
-
-</section>
 </div>
 <footer class="footer">
     <div class="container">
